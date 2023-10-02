@@ -3,7 +3,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
-    --transition: color 0.1s, bakground-color 0,2s ease-in-out;
+    --transition: color 0.1s, background-color 0.2s ease-in-out;
     --border-radius: 0.4em;
     --skills-bar-length: 0%;
 }

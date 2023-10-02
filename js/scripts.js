@@ -5,7 +5,6 @@ const toggleText   = document.getElementById('toggle-text');
 const toggleColors = document.getElementById('toggle-colors');
 const rootStyles   = document.documentElement.style;
 
-
 toggleTheme.addEventListener("click", () =>{
     document.body.classList.toggle("dark");
     if(toggleIcon.src.includes('moon.svg')){
@@ -20,3 +19,4 @@ toggleTheme.addEventListener("click", () =>{
 toggleColors.addEventListener("click", (e) => {
     rootStyles.setProperty("--primary-color", e.target.dataset.color);
 });
+
